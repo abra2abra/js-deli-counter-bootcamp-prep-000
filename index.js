@@ -13,5 +13,5 @@ function currentLine(line){
    hjh.push(`${i+1}. ${line[i]}`);
 
   }
-  return line.length === 0 ? "The line is currently empty." : `The line is currently:${hjh.join(", ")}`;
+  return line.length === 0 ? "The line is currently empty." : `The line is currently: ${hjh.join(", ")}`;
 }
